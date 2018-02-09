@@ -19,5 +19,5 @@ android {
 dependencies {
     compile 'com.jayway.android.robotium:robotium-solo:5.6.3'
     compile 'com.android.support:appcompat-v7:26.1.0'
-    compile files('src/include/jest-droid-2.0.1-SNAPSHOT.jar')
+    compile files('src/include/jest-droid-2.0.1-SNAPSHOT.jar')//Jar file. The one that comes with package manager has a bug so we use this one
 }
