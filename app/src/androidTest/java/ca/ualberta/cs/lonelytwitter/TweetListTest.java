@@ -77,7 +77,7 @@ public class TweetListTest extends ActivityInstrumentationTestCase2{
         TweetList tweets = new TweetList();
 
         Tweet tweet = new NormalTweet("adding normal tweet");
-        
+
         tweets.addTweet(tweet);
 
     }
